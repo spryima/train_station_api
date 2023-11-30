@@ -28,7 +28,19 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
-Set up the database:
+# Environment Setup
+Create a .env file based on the env.sample template.
+
+```python
+SECRET_KEY=DJANGO_SECRET_KEY
+POSTGRES_HOST=POSTGRES_HOST
+POSTGRES_DB=POSTGRES_DB
+POSTGRES_USER=POSTGRES_USER
+POSTGRES_PASSWORD=POSTGRES_PASSWORD
+```
+
+
+# Set up the database:
 ```python
 python manage.py makemigrations
 python manage.py migrate
@@ -44,6 +56,12 @@ Run the development server:
 python manage.py runserver
 ```
 
+# Using Docker (Optional)
+
+Build and run the container:
+```python
+docker-compose up --build
+```
 
 
 Visit http://127.0.0.1:8000/ in your browser.
@@ -58,3 +76,6 @@ For detailed API documentation, visit:
 
 License
 Distributed under the MIT License. See LICENSE for more information.
+
+
+Enjoy your journey with Train Station API Service!
