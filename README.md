@@ -3,12 +3,19 @@
 ## Overview
 The Train Station API Service is a comprehensive solution for managing trains, journeys, stations, and ticket bookings. Designed to simplify and enhance the train travel experience, it allows for efficient trip planning and ticket management.
 
+
 ## Features
 - **Station Management**: Details of train stations including location coordinates and associated routes.
 - **Train Management**: Information regarding train types, cargo capacity, and seating arrangements.
 - **Journey Planning**: Routes, schedules, and real-time updates on train journeys.
 - **Ticket Booking**: Simplify the process of booking tickets for passengers.
 - **Order Management**: Efficient handling of ticket orders from creation to completion.
+
+
+## DB Sructure
+
+<img width="954" alt="db_stucture" src="https://github.com/spryima/train_station_api/assets/142234584/fdc6a2b4-4b65-4287-bb6e-c75ebde40b6e">
+
 
 ## Getting Started
 
