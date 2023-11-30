@@ -1,10 +1,10 @@
 # Train Station API Service
 
-## Overview
+### Overview
 The Train Station API Service is a comprehensive solution for managing trains, journeys, stations, and ticket bookings. Designed to simplify and enhance the train travel experience, it allows for efficient trip planning and ticket management.
 
 
-## Features
+### Features
 - **Station Management**: Details of train stations including location coordinates and associated routes.
 - **Train Management**: Information regarding train types, cargo capacity, and seating arrangements.
 - **Journey Planning**: Routes, schedules, and real-time updates on train journeys.
@@ -12,7 +12,7 @@ The Train Station API Service is a comprehensive solution for managing trains, j
 - **Order Management**: Efficient handling of ticket orders from creation to completion.
 
 
-## DB Sructure
+### DB Sructure
 
 <img width="954" alt="db_stucture" src="https://github.com/spryima/train_station_api/assets/142234584/fdc6a2b4-4b65-4287-bb6e-c75ebde40b6e">
 
@@ -35,7 +35,7 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
-# Environment Setup
+### Environment Setup
 Create a .env file based on the env.sample template.
 
 ```python
@@ -47,7 +47,7 @@ POSTGRES_PASSWORD=POSTGRES_PASSWORD
 ```
 
 
-# Set up the database:
+### Set up the database:
 ```python
 python manage.py makemigrations
 python manage.py migrate
@@ -63,7 +63,7 @@ Run the development server:
 python manage.py runserver
 ```
 
-# Using Docker (Optional)
+### Using Docker (Optional)
 
 Build and run the container:
 ```python
